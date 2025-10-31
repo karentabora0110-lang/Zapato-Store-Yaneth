@@ -1,0 +1,41 @@
+
+<html>
+<head>
+<title>Sandalia - ZapaStore</title>
+<script>
+function meGusta(){alert("¡Te encantó la sandalia! ❤️");}
+function comentar(){
+  var c=document.getElementById("comentario").value;
+  if(c==""){alert("Escribe un comentario.");}
+  else{alert("Comentario enviado: "+c);}
+}
+</script>
+</head>
+<body bgcolor="lightcyan">
+
+<center><h2><font color="purple">SANDALIA</font></h2></center>
+<hr>
+
+<center><img src="sandalia.jpg" width="300" height="200"></center>
+<br>
+
+<font color="black">
+<b><h1>Descripción:</b> Sandalia ligera y fresca para el verano.<br></h1>
+<b><h1>Precio:</b> 450.lps<br></h1>
+<b><h1>Género:</b> para dama<br></h1>
+</font>
+
+<center>
+<br><button onclick="meGusta()">❤️ Me gusta</button><br><br>
+<textarea id="comentario" rows="3" cols="40" placeholder="Escribe un comentario..."></textarea><br>
+<button onclick="comentar()">💬 Enviar comentario</button>
+</center>
+
+<br><br>
+<center>
+<a href="calzado 3.html">Anterior</a> |
+<a href="calzado 5.html">ir a calzado 5</a>
+</center>
+
+</body>
+</html>

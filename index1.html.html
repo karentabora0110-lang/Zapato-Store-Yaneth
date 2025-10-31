@@ -1,0 +1,47 @@
+<html>
+<head>
+<title>Runner - ZapaStore</title>
+<script>
+function meGusta() {
+  alert("¡Te ha gustado este producto! ❤️");
+}
+function comentar() {
+  var texto = document.getElementById("comentario").value;
+  if (texto == "") {
+    alert("Por favor escribe un comentario.");
+  } else {
+    alert("Comentario enviado: " + texto);
+  }
+}
+</script>
+</head>
+<body bgcolor="lightblue">
+
+<center><h2><font color="darkblue">ZAPATO RUNNER</font></h2></center>
+<hr>
+
+<center><img src="runner.jpg" width="300" height="200"></center>
+<br>
+
+<font color="black">
+<b><h1>Descripción:</b> Zapatilla deportiva ligera, con malla transpirable y suela cómoda.<br></h1>
+<b><h1>Precio:</b> 450.lps<br></h1>
+<b><h1>Género:</b> Unisex<br></h1>
+</font>
+<br><br>
+
+<center>
+<button onclick="meGusta()">❤️ Me gusta</button>
+<br><br>
+<textarea id="comentario" rows="3" cols="40" placeholder="Escribe un comentario..."></textarea><br>
+<button onclick="comentar()">💬 Enviar comentario</button>
+</center>
+
+<br><br>
+<center>
+<a href="index.html">Volver al inicio</a> |
+<a href="calzado 2.html">ir a calzado 2</a>
+</center>
+
+</body>
+</html>

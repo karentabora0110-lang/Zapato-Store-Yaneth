@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>Casual - ZapaStore</title>
+<script>
+function meGusta(){alert("¡Te gustó el zapato casual! ❤️");}
+function comentar(){
+  var c=document.getElementById("comentario").value;
+  if(c==""){alert("Escribe tu comentario primero.");}
+  else{alert("Comentario enviado: "+c);}
+}
+</script>
+</head>
+<body bgcolor="lightgreen">
+
+<center><h2><font color="darkgreen">ZAPATO CASUAL</font></h2></center>
+<hr>
+
+<center><img src="casual.jpg" width="300" height="200"></center>
+<br>
+
+<font color="black">
+<b><h1>Descripción:</b> Zapato cómodo, moderno y fácil de combinar.<br></h1>
+<b><h1>Precio:</b> 200.lps<br></h1>
+<b><h1>Género:</b> Unisex<br></h1>
+</font>
+
+<center>
+<br><button onclick="meGusta()">❤️ Me gusta</button><br><br>
+<textarea id="comentario" rows="3" cols="40" placeholder="Escribe un comentario..."></textarea><br>
+<button onclick="comentar()">💬 Enviar comentario</button>
+</center>
+
+<br><br>
+<center>
+<a href="calzado 2.html">Anterior</a> |
+<a href="calzado 3.html">ir a calzado 4</a>
+</center>
+
+</body>
+</html>

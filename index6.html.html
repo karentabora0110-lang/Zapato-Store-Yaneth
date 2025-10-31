@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>Portada - ZapaStore</title>
+<script>
+function meGusta(){
+  alert("¡Gracias por tu Me gusta! ❤️");
+}
+function comentar(){
+  var texto = document.getElementById("comentario").value;
+  if(texto == ""){
+    alert("Por favor escribe un comentario.");
+  } else {
+    alert("Comentario enviado: " + texto);
+  }
+}
+</script>
+</head>
+<body bgcolor="lightyellow">
+
+<center>
+  <h1><font color="blue">ZapaStore</font></h1>
+  <h3><font color="green">GRACIAS POR VISITARNOS ESPERO Y NUESTROS CALZADOS HAYAN SIDO DE TU AGRADO,<br>
+</br>¡TE ESPERAMOS PRONTO!</font></h3>
+  <img src="fondo.jpg" width="300" height="200"><br><br>
+
+  <button onclick="meGusta()">❤️ Me gusta</button><br><br>
+
+  <textarea id="comentario" rows="3" cols="40" placeholder="Escribe un comentario..."></textarea><br>
+  <button onclick="comentar()">💬 Enviar comentario</button><br><br>
+
+  <a href="index.html">volver a index</a>
+</center>
+
+</body>
+</html>
